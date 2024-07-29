@@ -1,0 +1,18 @@
+.theme-button {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  width: var(--theme-small-icon-height);
+  height: var(--theme-small-icon-height);
+  background-color: var(--base-button-bg-color);
+  font-size: 0.75rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  * {
+    color: var(--base-icon-color) !important;
+  }
+}

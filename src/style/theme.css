@@ -1,0 +1,20 @@
+:root {
+  --base-color: #242424;
+  --base-header-bg-color: #f1e4c8;
+  --base-table-header-bg-color: #f2f0e0;
+  --base-table-bg: #fff;
+  --base-button-bg-color: #fbf6ec;
+
+  --theme-small-icon-height: 20px;
+  --base-icon-color: #242424;
+}
+
+.theme-dark {
+  --base-color: #fdf5e4;
+  --base-header-bg-color: #141312;
+  --base-table-header-bg-color: #1e1d1c;
+  --base-table-bg: #292827;
+  --base-button-bg-color: #f8a500;
+
+  --base-icon-color: #242424;
+}

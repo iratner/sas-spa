@@ -1,5 +1,4 @@
 import "assets/icons/FaInit";
-import "style/utility/theme.css";
 import "style/components/App.css";
 import "style/reset.css";
 import "style/theme.css";

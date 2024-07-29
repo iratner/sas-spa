@@ -1,0 +1,29 @@
+.csv-data-loader {
+  width: 100%;
+  background-color: var(--base-table-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  input,
+  .file-drop {
+    display: inline-block;
+    width: 225px;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .file-drop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.25rem;
+  }
+}
+
+.csv-data-loader input {
+}
+.csv-data-loader .file-drop {
+}

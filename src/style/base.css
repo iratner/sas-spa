@@ -1,0 +1,8 @@
+* {
+  color: var(--base-color);
+}
+
+button,
+select {
+  color: black;
+}

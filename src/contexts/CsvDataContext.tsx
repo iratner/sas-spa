@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import { PersonField } from "typings";
-import { csvLineArrayParser, parseBirthday } from "utils/csvUtils";
+import { csvLineToArrayParser, parseBirthday } from "utils/csvUtils";
 import { calculateAge } from "utils/dateUtils";
 
 interface ICsvData {
@@ -18,7 +18,7 @@ export const CsvDataProvider = ({ children }: CsvDataProviderProps) => {
   const [csvData, setCsvData] = useState<string[]>([]);
 
   const people = useMemo(() => {
-    const processed = csvLineArrayParser(csvData);
+    const processed = csvLineToArrayParser(csvData);
     // remove header
     processed.shift();
     processed.forEach((person) => {
